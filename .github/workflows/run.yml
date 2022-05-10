@@ -31,7 +31,7 @@ jobs:
           DISCORD_USERNAME: Github Announcement
         uses: Ilshidur/action-discord@master
         with:
-          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+          args: '프로젝트 {{ EVENT_PAYLOAD.repository.full_name }} (이)가 배포되었습니다'
     
       # Runs a single command using the runners shell
       - name: Run a one-line script
